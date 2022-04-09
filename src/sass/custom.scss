@@ -1,0 +1,20 @@
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+/* MY THEME COLOR */
+$blue-light:    #5C6B7D;
+$blue-dark: #485F7D;
+$orange:  #FC783F;
+$gray-200: #e9ecef !default;
+
+$primary:       $blue-dark;
+$secondary:     #334153;
+$warning:       $orange;
+
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap/scss/_mixins.scss";
+@import "../../node_modules/bootstrap/scss/_root.scss";
+@import "../../node_modules/bootstrap/scss/_utilities.scss";
+@import "../../node_modules/bootstrap/scss/_reboot.scss";
+@import "../../node_modules/bootstrap/scss/_type.scss";
+@import "../../node_modules/bootstrap/scss/_images.scss";
+@import "../../node_modules/bootstrap/scss/_containers.scss";
+@import "../../node_modules/bootstrap/scss/_grid.scss";
