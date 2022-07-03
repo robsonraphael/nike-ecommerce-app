@@ -45,10 +45,10 @@ export const Main: React.FC = () => {
             </Price>
             <Wishlist onClick={() => setIsWishList(!isWishList)}>
               <Icon active={!isWishList}>
-                <AiOutlineHeart size="1.5em" />
+                <AiOutlineHeart/>
               </Icon>
               <Icon active={isWishList}>
-                <AiFillHeart size="1.5em" color="#dc143c" />
+                <AiFillHeart color="#dc143c" />
               </Icon>
             </Wishlist>
           </Information>
